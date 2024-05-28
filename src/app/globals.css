@@ -1,21 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+main {
+  --font-family: "Exo", sans-serif;
+  --font-size: 2rem;
+  --text-color: #c3c9dc;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-synthesis: none;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  color: var(--text-color);
 }
