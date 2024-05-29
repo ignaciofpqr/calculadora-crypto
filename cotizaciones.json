@@ -15,4 +15,19 @@
     "compra": 1000.5,
     "venta": 1000.1
   }
+},
+
+{
+  "ARS": {
+    "compra": 1,
+    "venta": 1
+  },
+  "USD": {
+    "compra": 230,
+    "venta": 240
+  },
+  "EUR": {
+    "compra": 250,
+    "venta": 260
+  }
 }
