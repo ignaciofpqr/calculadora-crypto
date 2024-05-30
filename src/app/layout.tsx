@@ -19,6 +19,7 @@ export default function RootLayout({
       <body className={exo.className}>
         <main className="flex h-screen bg-slate-900 items-center justify-center">
           <div className="mx-auto flex max-w-screen-md flex-1 flex-col px-4">
+            Fiat Flux .-
             <div className="grid w-full rounded-3xl bg-slate-800 p-8 shadow-lg">
               {children}
             </div>
